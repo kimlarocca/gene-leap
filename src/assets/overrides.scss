@@ -13,6 +13,12 @@ h1 {
   }
 }
 
+.button {
+  text-transform: uppercase !important;
+  font-size: var(--font-size-5) !important;
+  font-weight: 600 !important;
+}
+
 // header
 
 .header .secondary-navigation-item {
@@ -29,6 +35,12 @@ h1 {
       color: var(--color-tertiary);
     }
   }
+}
+
+// menu
+
+.menu .secondary-navigation-item {
+  margin-bottom: var(--space-3);
 }
 
 // footer

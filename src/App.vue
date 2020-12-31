@@ -3,118 +3,124 @@
     <v-spacer />
     <v-header
         layout="right"
-        :responsive=true
+        responsive="true"
     >
       <template v-slot:logo>
-        <img
-            src="/images/logo.jpg"
-            width="150"
-            alt="GeneLeap Bioteach logo"
-        />
+        <router-link to="/">
+          <img
+              src="/images/logo.jpg"
+              width="150"
+              alt="GeneLeap Bioteach logo"
+          />
+        </router-link>
       </template>
       <template v-slot:button>
-        <v-button href="http://www.google.com">
-          Investors
-        </v-button>
+        <router-link to="investors">
+          <v-button>
+            Investors
+          </v-button>
+        </router-link>
       </template>
       <template v-slot:menu>
-        <v-menu
-            layout="right"
-            :primaryNav="[
+        <div>
+          <v-menu
+              layout="right"
+              :primaryNav="[
                     {
-                      url: '/about',
+                      route: '/about',
                       text: 'About',
                     },
                     {
-                      url: '/technology',
+                      route: '/technology',
                       text: 'Technology',
                     },
                     {
-                      url: '/careers',
+                      route: '/careers',
                       text: 'Careers',
                     },
                     {
-                      url: '/news',
+                      route: '/news',
                       text: 'News',
                     },
                     {
-                      url: '/contact',
+                      route: '/contact',
                       text: 'Contact',
                     }
                   ]"
-        >
-          <template v-slot:logo>
-            <img
-                src="https://place-hold.it/150x50?text=logo"
-                alt="logo"
-            />
-          </template>
-          <template v-slot:button>
-            <v-button href="http://www.google.com">
-              Click Me
-            </v-button>
-          </template>
-          <template v-slot:component>
-            <p class="u-align--center"><em>slot for component</em></p>
-          </template>
-          <template v-slot:social>
-            <ul class="social-links">
-              <social-link
-                  icon="fab fa-facebook-f"
-                  link="https://www.facebook.com"
-                  label="facebook"
-              >
-              </social-link>
-              <social-link
-                  icon="fab fa-twitter"
-                  link="https://www.twitter.com"
-                  label="twitter"
-              >
-              </social-link>
-              <social-link
-                  icon="fab fa-youtube"
-                  link="https://www.youtube.com"
-                  label="youtube"
-              >
-              </social-link>
-              <social-link
-                  icon="fab fa-instagram"
-                  link="https://www.instagram.com"
-                  label="instagram"
-              >
-              </social-link>
-              <social-link
-                  icon="fab fa-linkedin-in"
-                  link="https://www.linkedin.com"
-                  label="linkedin"
-              >
-              </social-link>
-            </ul>
-          </template>
-        </v-menu>
+          >
+            <template v-slot:logo>
+              <img
+                  src="/images/logo.jpg"
+                  width="150"
+                  alt="GeneLeap Bioteach logo"
+              />
+            </template>
+            <template v-slot:button>
+              <router-link to="investors">
+                <v-button>
+                  Investors
+                </v-button>
+              </router-link>
+            </template>
+            <template v-slot:social>
+              <ul class="social-links">
+                <social-link
+                    icon="fab fa-facebook-f"
+                    link="https://www.facebook.com"
+                    label="facebook"
+                >
+                </social-link>
+                <social-link
+                    icon="fab fa-twitter"
+                    link="https://www.twitter.com"
+                    label="twitter"
+                >
+                </social-link>
+                <social-link
+                    icon="fab fa-youtube"
+                    link="https://www.youtube.com"
+                    label="youtube"
+                >
+                </social-link>
+                <social-link
+                    icon="fab fa-instagram"
+                    link="https://www.instagram.com"
+                    label="instagram"
+                >
+                </social-link>
+                <social-link
+                    icon="fab fa-linkedin-in"
+                    link="https://www.linkedin.com"
+                    label="linkedin"
+                >
+                </social-link>
+              </ul>
+            </template>
+          </v-menu>
+        </div>
       </template>
       <template v-slot:navigation>
         <secondary-navigation
             orientation="horizontal"
             :nav-items="[
                     {
-                      url: '/about',
+                      route: '/about',
                       text: 'About',
                     },
                     {
-                      url: '/technology',
+                      route: '/technology',
                       text: 'Technology',
                     },
                     {
-                      url: '/careers',
+                      route: '/careers',
                       text: 'Careers',
                     },
                     {
-                      url: '/news',
+                      route: '/news',
                       text: 'News',
                     },
                     {
-                      url: '/contact',
+                      route: '/contact',
                       text: 'Contact',
                     }
                   ]"
@@ -129,32 +135,32 @@
       company-name="GeneLeap Biotech"
       :navigation="[
                     {
-                      url: '/about',
+                      route: '/',
+                      text: 'Home',
+                    },
+                    {
+                      route: '/about',
                       text: 'About',
                     },
                     {
-                      url: '/technology',
+                      route: '/technology',
                       text: 'Technology',
                     },
                     {
-                      url: '/careers',
+                      route: '/careers',
                       text: 'Careers',
                     },
                     {
-                      url: '/news',
+                      route: '/news',
                       text: 'News',
                     },
                     {
-                      url: '/contact',
+                      route: '/contact',
                       text: 'Contact',
                     },
                     {
-                      url: '/privacy',
-                      text: 'Privacy',
-                    },
-                    {
-                      url: '/terms',
-                      text: 'Terms',
+                      route: '/investors',
+                      text: 'Investors',
                     }
                   ]"
   >
