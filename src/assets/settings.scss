@@ -16,7 +16,7 @@ $xlarge: 1440px;
   // Colors
   --color-white: #ffffff;
   --color-black: #000000;
-  --color-dark-gray: #333333;
+  --color-dark-gray: #404042;
   --color-gray: #afafaf;
   --color-light-gray: #f3f3f3;
   --color-primary: #022e9f;
@@ -189,8 +189,8 @@ $xlarge: 1440px;
 
   // Menu
   --menu-width: 350px;
-  --menu-text: var(--color-text);
-  --menu-background: var(--color-light-gray);
+  --menu-text: var(--color-white);
+  --menu-background: var(--color-dark-gray);
 
   // Breadcrumbs
   --breadcrumbs-text: var(--color-text);

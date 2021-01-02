@@ -50,8 +50,8 @@
           >
             <template v-slot:logo>
               <img
-                  src="/images/logo.jpg"
-                  width="150"
+                  src="/images/logo-gray.jpg"
+                  width="200"
                   alt="GeneLeap Bioteach logo"
               />
             </template>
