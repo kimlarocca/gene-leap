@@ -73,8 +73,14 @@ export default {
   width: 100%;
   text-align: right;
   min-height: 600px;
-  background: black url("/images/home-hero.jpg") no-repeat right top;
+  background: black url("/images/home-hero.jpg") no-repeat left -100px top;
   background-size: cover;
+  @media all and (min-width: $medium) {
+    background: black url("/images/home-hero.jpg") no-repeat left top;
+  }
+  @media all and (min-width: $xlarge) {
+    background: black url("/images/home-hero.jpg") no-repeat right top;
+  }
 }
 
 .home .home-hero-text {
@@ -102,12 +108,20 @@ export default {
   text-align: center;
   position: relative;
   background: white url("/images/home-cards-background.jpg") no-repeat left top;
-  padding: var(--space-10) 0;
+  padding: var(--space-10) var(--space-4);
   min-height: 480px;
+  @media all and (min-width: $medium) {
+    padding: var(--space-10) 0;
+  }
 
   .card {
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
     padding: var(--space-4) 0;
+
+    &:hover {
+      opacity: 1;
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+    }
 
     .subtitle {
       text-transform: uppercase;
