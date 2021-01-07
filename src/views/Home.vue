@@ -1,38 +1,34 @@
 <template>
-  <div class="home l-container">
-    <div class="l-grid l-grid--2up l-grid--middle">
-      <h1>Completely Novel Gene Therapies</h1>
-      <p>GeneLeap Biotech is a global gene therapy company in the Luye Lifesciences portfolio of companies, a leader in China and a new entrant in the US. Our goal is to deliver a best-in-class portfolio of completely novel gene therapies.</p>
-    </div>
+  <div class="home">
     <div class="home-hero">
-      <div class="home-hero-circle" />
-      <img
-          src="/images/home-hero.jpg"
-          alt="GeneLeap Bioteach, a global gene therapy company"
-      />
+      <div class="home-hero-text l-container">
+        <h1>Completely Novel Gene Therapies</h1>
+        <p>GeneLeap Biotech is a global gene therapy company in the Luye Lifesciences portfolio of companies, a leader in China and a new entrant in the US. Our goal is to deliver a best-in-class portfolio of completely novel gene therapies.</p>
+      </div>
     </div>
-    <v-spacer size="quin" />
-    <div class="home-cards l-container l-grid l-grid--3up l-grid--large-gutters">
-      <div>
-        <card
-            icon="fas fa-globe"
-            subtitle="global excellence"
-            description="Global centers of excellence for GMP and Commercial manufacturing"
-        />
-      </div>
-      <div>
-        <card
-            icon="fas fa-dna"
-            subtitle="history & experience"
-            description="A long history of novel drug delivery experience and marketed products"
-        />
-      </div>
-      <div>
-        <card
-            icon="fas fa-file-medical"
-            subtitle="stellar record"
-            description="A stellar record with the FDA (over 10 years) and CFDA (over 25 years)"
-        />
+    <div class="home-cards">
+      <div class="l-container l-grid l-grid--3up l-grid--large-gutters">
+        <div>
+          <card
+              icon="fas fa-globe"
+              subtitle="global excellence"
+              description="Global centers of excellence for GMP and Commercial manufacturing"
+          />
+        </div>
+        <div>
+          <card
+              icon="fas fa-dna"
+              subtitle="history & experience"
+              description="A long history of novel drug delivery experience and marketed products"
+          />
+        </div>
+        <div>
+          <card
+              icon="fas fa-file-medical"
+              subtitle="stellar record"
+              description="A stellar record with the FDA (over 10 years) and CFDA (over 25 years)"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -40,21 +36,21 @@
 
 <script>
 import Card from 'vue-evolve/src/components/Card'
-import VSpacer from 'vue-evolve/src/components/VSpacer'
 
 export default {
   name: 'Home',
   components: {
-    Card,
-    VSpacer
+    Card
   }
 }
 </script>
 
 <style lang="scss">
 @import "src/assets/settings";
+
 .home {
   position: relative;
+
   &::after {
     display: none;
     @media all and (min-width: $medium) {
@@ -71,56 +67,47 @@ export default {
     }
   }
 }
+
 .home .home-hero {
+  display: flex;
   width: 100%;
-  margin-top: var(--space-6);
-  @media all and (min-width: $medium) {
-    margin-top: var(--space-10);
-  }
+  text-align: right;
+  min-height: 600px;
+  background: black url("/images/home-hero.jpg") no-repeat right top;
+  background-size: cover;
 }
 
-.home .home-hero-circle {
-  position: relative;
-  height: 100px;
-  overflow: hidden;
+.home .home-hero-text {
+  color: white;
+  text-align: left;
+  padding: var(--space-2) 0;
 
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 32px;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    background: var(--color-primary);
-    background: linear-gradient(90deg, var(--color-quinary) 0%, var(--color-primary) 100%);
-    @media all and (min-width: $medium) {
-      right: unset;
-      left: 100px;
-      height: 400px;
-      width: 400px;
-    }
+  h1 {
+    color: white;
+    max-width: 500px;
+    margin-bottom: var(--space-4);
+    text-shadow: 0 0 30px #000;
+  }
+
+  p {
+    max-width: 800px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-shadow: 0 0 30px #000;
   }
 }
 
 .home .home-cards {
   text-align: center;
   position: relative;
-  &::after {
-    position: absolute;
-    z-index: -1;
-    top: -50px;
-    left: -150px;
-    content: '';
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    background: var(--color-quaternary);
-    background: linear-gradient(135deg, var(--color-white) 0%, var(--color-quinary) 75%, var(--color-quinary) 100%);
-  }
+  background: white url("/images/home-cards-background.jpg") no-repeat left top;
+  padding: var(--space-10) 0;
+  min-height: 480px;
 
   .card {
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    padding: var(--space-4) 0;
 
     .subtitle {
       text-transform: uppercase;
@@ -129,7 +116,7 @@ export default {
 
   i {
     font-size: 2rem;
-    color: var(--color-secondary);
+    color: var(--color-black);
   }
 }
 </style>

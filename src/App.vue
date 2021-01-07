@@ -1,5 +1,5 @@
 <template>
-  <div class="l-container">
+  <div>
     <v-spacer />
     <v-header
         layout="right"
@@ -15,9 +15,8 @@
         </router-link>
       </template>
     </v-header>
-    <v-spacer size="hex" />
+    <v-spacer />
     <router-view />
-    <v-spacer size="hex" />
   </div>
   <v-footer
       company-name="GeneLeap Biotech"
