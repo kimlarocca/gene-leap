@@ -1,3 +1,36 @@
 @import "~vue-evolve/src/assets/scss/main";
 @import "settings";
 @import "overrides";
+
+.hero {
+  display: flex;
+  width: 100%;
+  text-align: right;
+  min-height: 600px;
+  background: url("/images/about-hero.jpg") no-repeat center top;
+  background-size: cover;
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.hero-text {
+  color: white;
+  text-align: left;
+  padding: var(--space-2) 0;
+
+  h1 {
+    color: white;
+    max-width: 500px;
+    margin-bottom: var(--space-4);
+    text-shadow: 0 0 30px #000;
+  }
+
+  p {
+    max-width: 800px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-shadow: 0 0 30px #000;
+  }
+}

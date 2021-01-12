@@ -88,9 +88,9 @@ $xlarge: 1440px;
   }
 
   h3 {
-    @include typeface(primary, 7);
+    @include typeface(primary, 6);
     @media all and (min-width: $medium) {
-      @include typeface(primary, 12);
+      @include typeface(primary, 10);
     }
   }
 
@@ -176,12 +176,12 @@ $xlarge: 1440px;
   --forms-inline-button-padding: 0 1rem;
 
   // Buttons
-  --button-background: var(--color-tertiary);
+  --button-background: var(--color-primary);
   --button-text: var(--color-white);
-  --button-border: 2px solid var(--color-tertiary);
+  --button-border: 2px solid var(--color-primary);
   --button-background-hover: var(--color-white);
-  --button-text-hover: var(--color-tertiary);
-  --button-border-hover: 2px solid var(--color-tertiary);
+  --button-text-hover: var(--color-primary);
+  --button-border-hover: 2px solid var(--color-secondary);
   --button-font-size: var(--font-size-3);
   --button-font-weight: 700;
   --button-text-transform: uppercase;

@@ -2,7 +2,7 @@
   <div class="programs">
     <div class="hero">
       <div class="hero-text l-container">
-        <h1>Careers</h1>
+        <h1>Our Programs</h1>
         <p>Coming soon.</p>
       </div>
     </div>
@@ -14,7 +14,7 @@
 import VSpacer from 'vue-evolve/src/components/VSpacer'
 
 export default {
-  name: 'Careers',
+  name: 'Programs',
   components: {
     VSpacer
   }

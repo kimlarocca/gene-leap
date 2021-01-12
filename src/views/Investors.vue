@@ -1,14 +1,26 @@
 <template>
-  <div class="about l-container">
-    <div class="l-grid l-grid--2up l-grid--middle">
-      <h1>Investors</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae delectus eius labore nisi nobis porro quos veniam voluptas. Accusamus dolores ducimus iusto modi. Ab ducimus ex laboriosam natus odit.</p>
+  <div class="programs">
+    <div class="hero">
+      <div class="hero-text l-container">
+        <h1>Investors</h1>
+        <p>Coming soon.</p>
+      </div>
     </div>
+    <v-spacer size="quad" />
   </div>
 </template>
 
 <script>
+import VSpacer from 'vue-evolve/src/components/VSpacer'
+
 export default {
-  name: 'Investors'
+  name: 'Investors',
+  components: {
+    VSpacer
+  }
 }
 </script>
+
+<style lang="scss">
+@import "src/assets/settings";
+</style>
