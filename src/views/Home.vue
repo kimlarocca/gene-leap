@@ -49,6 +49,7 @@ export default {
 @import "src/assets/settings";
 
 .home .hero {
+  min-height: 600px;
   background: black url("/images/home-hero.jpg") no-repeat left -100px top;
   @media all and (min-width: $medium) {
     background: black url("/images/home-hero.jpg") no-repeat left top;

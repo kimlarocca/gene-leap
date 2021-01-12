@@ -28,7 +28,7 @@
           </slot>
         </biography-card>
         <biography-card
-            image="https://via.placeholder.com/320/320?text=image"
+            image="/images/team/matthias.jpg"
             altText="Matthias John, Sr. Dir of mRNA Research"
             name="Matthias John, Sr. Dir of mRNA Research"
             layout="horizontal"
@@ -41,7 +41,7 @@
           </slot>
         </biography-card>
         <biography-card
-            image="https://via.placeholder.com/320/320?text=image"
+            image="/images/team/zhang.jpg"
             altText="Jingxin Jason Zhang, CSO"
             name="Jingxin Jason Zhang, CSO"
             layout="horizontal"
@@ -54,7 +54,7 @@
           </slot>
         </biography-card>
         <biography-card
-            image="https://via.placeholder.com/320/320?text=image"
+            image="/images/team/ekambar.jpg"
             altText="Ekambar Kandimalla, Sr. Dir of Oligo Rsearch"
             name="Ekambar Kandimalla, Sr. Dir of Oligo Rsearch"
             layout="horizontal"
@@ -69,7 +69,7 @@
           </slot>
         </biography-card>
         <biography-card
-            image="https://via.placeholder.com/320/320?text=image"
+            image="/images/team/tim.jpg"
             altText="Tim Maguire, BD Head"
             name="Tim Maguire, BD Head"
             layout="horizontal"
@@ -83,20 +83,7 @@
           </slot>
         </biography-card>
         <biography-card
-            image="https://via.placeholder.com/320/320?text=image"
-            altText="Jing Zhu, Sr. Investigator, Process Development"
-            name="Jing Zhu, Sr. Investigator, Process Development"
-            layout="horizontal"
-        >
-          <slot>
-            <ul>
-              <li>Previously R&D manager at Thermo Fisher;</li>
-              <li>Broad experiences in mRNA process developments.</li>
-            </ul>
-          </slot>
-        </biography-card>
-        <biography-card
-            image="https://via.placeholder.com/320/320?text=image"
+            image="https://via.placeholder.com/320/320?text=coming soon"
             altText="Jing Zhu, Sr. Investigator, Process Development"
             name="Jing Zhu, Sr. Investigator, Process Development"
             layout="horizontal"
@@ -113,7 +100,7 @@
       <h3>Board of Advisors</h3>
       <div class="l-grid l-grid--2up l-grid--large-gutters">
         <biography-card
-            image="https://via.placeholder.com/320/320?text=image"
+            image="https://via.placeholder.com/320/320?text=coming soon"
             altText="Prof. Guangping Gao"
             name="Prof. Guangping Gao"
             layout="horizontal"
@@ -126,7 +113,7 @@
           </slot>
         </biography-card>
         <biography-card
-            image="https://via.placeholder.com/320/320?text=image"
+            image="https://via.placeholder.com/320/320?text=coming soon"
             altText="Prof. Roland W. Herzog"
             name="Prof. Roland W. Herzog"
             layout="horizontal"

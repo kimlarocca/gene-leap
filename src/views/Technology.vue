@@ -2,12 +2,13 @@
   <div class="technology">
     <div class="hero">
       <div class="hero-text l-container">
-        <h1>Our Science</h1>
+        <h1>Technology</h1>
         <p>We seek to treat patient populations with urgent unmet needs, who currently have no available therapies to modify the progressive course of their disease.</p>
       </div>
     </div>
     <v-spacer size="quad" />
     <div class="l-container">
+      <h2>Our Science</h2>
       <p>Leveraging recent breakthroughs in human genetics and the transformative success of mRNA, siRAN, and AAV-based gene therapy, our goal is to use a precision medicine approach to slow or stop the progression of diseases in the fields of neuro-degeneration and oncology, as well as multiple rare indications.</p>
       <v-spacer size="double" />
       <h2>Gene Therapy</h2>
@@ -39,9 +40,17 @@
         </div>
       </div>
       <v-spacer size="quad" />
-      <h2>Our Three Foci</h2>
-      <p>At GeneLeap Biotechnology, we pursue programs using messenger RNA (mRNA) to develop a new class of medicines. we are leveraging the fundamental role that mRNA plays in protein synthesis. We have developed proprietary technologies and methods to create mRNA sequences that cells recognize as if they were produced in the body. We focus on diseases where enabling targeted cells to produce – or turn ‘on’ – one or more given proteins will enable the body to fight or prevent a given disease.</p>
-      <p>Additionally, we are advancing the use of using adeno-associated viral (AAV) vectors to advance research programs against strategically selected cell targets, for example, the retina, liver and central nervous system.</p>
+      <content-card
+          title="Our Three Foci"
+          image="/images/technology.jpg"
+          alt-text="geneleap biotech technology"
+          alignment="right"
+      >
+        <template v-slot:content>
+          <p>At GeneLeap Biotechnology, we pursue programs using messenger RNA (mRNA) to develop a new class of medicines. we are leveraging the fundamental role that mRNA plays in protein synthesis. We have developed proprietary technologies and methods to create mRNA sequences that cells recognize as if they were produced in the body. We focus on diseases where enabling targeted cells to produce – or turn ‘on’ – one or more given proteins will enable the body to fight or prevent a given disease.</p>
+          <p>Additionally, we are advancing the use of using adeno-associated viral (AAV) vectors to advance research programs against strategically selected cell targets, for example, the retina, liver and central nervous system.</p>
+        </template>
+      </content-card>
       <p>Our newest area of development is in non-coding RNAs, enabling RNA interference or RNAi, as it is termed in the biotech field. Therapeutics in this realm of research and development include modalities such as small interfering RNAs (siRNAs) and microRNAs (miRNAs). They provide amazing potential in a variety of ways:</p>
       <ol>
         <li>The ability to harness a natural pathway.</li>
@@ -57,11 +66,13 @@
 <script>
 import VSpacer from 'vue-evolve/src/components/VSpacer'
 import Card from 'vue-evolve/src/components/Card'
+import ContentCard from 'vue-evolve/src/components/ContentCard'
 
 export default {
   name: 'Technology',
   components: {
     Card,
+    ContentCard,
     VSpacer
   }
 }
