@@ -14,7 +14,7 @@
       <h3>Executive Team</h3>
       <div class="l-grid l-grid--2up l-grid--large-gutters">
         <biography-card
-            image="https://via.placeholder.com/320/320?text=image"
+            image="/images/team/sean.jpg"
             altText="Xi-Yong Sean Fu, CEO"
             name="Xi-Yong Sean Fu, CEO"
             layout="horizontal"

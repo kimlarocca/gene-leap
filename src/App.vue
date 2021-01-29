@@ -136,10 +136,6 @@ export default {
           text: 'Programs',
         },
         {
-          route: '/patients',
-          text: 'Patients',
-        },
-        {
           route: '/contact',
           text: 'Contact',
         }
