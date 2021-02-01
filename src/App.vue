@@ -14,13 +14,6 @@
           />
         </router-link>
       </template>
-      <template v-slot:button>
-        <router-link to="investors">
-          <v-button>
-            Investors
-          </v-button>
-        </router-link>
-      </template>
       <template v-slot:navigation>
         <secondary-navigation
             orientation="horizontal"
@@ -40,13 +33,6 @@
                   width="200"
                   alt="GeneLeap Bioteach logo"
               />
-            </template>
-            <template v-slot:button>
-              <router-link to="investors">
-                <v-button>
-                  Investors
-                </v-button>
-              </router-link>
             </template>
           </the-menu>
         </div>
@@ -70,7 +56,6 @@ import TheHeader from 'vue-evolve/src/components/TheHeader'
 import VSpacer from 'vue-evolve/src/components/VSpacer'
 import TheFooter from 'vue-evolve/src/components/TheFooter'
 import TheMenu from 'vue-evolve/src/components/TheMenu'
-import VButton from 'vue-evolve/src/components/VButton'
 import SecondaryNavigation from 'vue-evolve/src/components/SecondaryNavigation'
 
 export default {
@@ -80,7 +65,6 @@ export default {
     VSpacer,
     TheFooter,
     TheMenu,
-    VButton,
     SecondaryNavigation
   },
   data () {
