@@ -20,7 +20,7 @@
       <v-spacer size="hex" />
       <div class="careers-cards">
         <h2>Open Positions</h2>
-        <div class="l-grid l-grid--4up l-grid--large-gutters">
+        <div class="l-grid l-grid--4-2-1 l-grid--large-gutters">
           <div>
             <v-card
                 icon="fas fa-file-word"
