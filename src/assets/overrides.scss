@@ -19,12 +19,12 @@ h1 {
 
 h2,
 h3,
-p {
-  margin-bottom: var(--space-4);
+.content-card h3 {
+  margin-bottom: var(--space-6);
+  text-transform: capitalize;
 }
 
 h3 {
-  text-transform: uppercase;
   color: var(--color-primary);
 }
 
@@ -57,7 +57,7 @@ h3 {
 
 .menu .secondary-navigation-item {
   color: var(--color-white);
-  margin-bottom: var(--space-3);
+  margin: 0 0 var(--space-3);
 }
 
 // footer
@@ -98,7 +98,6 @@ h3 {
   }
 }
 
-.content-blade img {
-  //clip-path: circle(50% at 50% 50%);
+.content-card img {
   clip-path: polygon(15% 0, 85% 0, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0 84%, 0 15%);
 }

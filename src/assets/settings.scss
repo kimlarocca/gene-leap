@@ -18,15 +18,15 @@ $xlarge: 1440px;
   --color-black: #000000;
   --color-dark-gray: #404042;
   --color-gray: #afafaf;
-  --color-light-gray: #f3f3f3;
+  --color-light-gray: #F7F8FC;
   --color-primary: #022e9f;
   --color-secondary: #147fa8;
   --color-tertiary: #ef5f3a;
   --color-quaternary: #93b4f0;
-  --color-quinary: #2bc8c0;
+  --color-quinary: #DCEAF8;
 
   // Fonts
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;600&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;600;800&display=swap");
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
   --font-family-primary: "Roboto", sans-serif;
   --font-family-secondary: "Playfair Display", serif;
@@ -81,23 +81,23 @@ $xlarge: 1440px;
   }
 
   h2 {
-    @include typeface(primary, 8);
+    @include typeface(primary, 11);
     @media all and (min-width: $medium) {
       @include typeface(primary, 13);
     }
   }
 
   h3 {
-    @include typeface(primary, 6);
+    @include typeface(secondary, 9);
     @media all and (min-width: $medium) {
-      @include typeface(primary, 10);
+      @include typeface(secondary, 11);
     }
   }
 
   h4 {
-    @include typeface(primary, 6);
+    @include typeface(primary, 8);
     @media all and (min-width: $medium) {
-      @include typeface(heaprimaryder, 10);
+      @include typeface(primary, 10);
     }
   }
 
@@ -181,7 +181,7 @@ $xlarge: 1440px;
   --button-border: 2px solid var(--color-secondary);
   --button-background-hover: var(--color-white);
   --button-text-hover: var(--color-secondary);
-  --button-border-hover: 2px solid var(--color-secondary);
+  --button-border-hover: 2px solid var(--color-white);
   --button-font-size: var(--font-size-3);
   --button-font-weight: 700;
   --button-text-transform: uppercase;

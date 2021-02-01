@@ -9,21 +9,21 @@
     <div class="home-cards">
       <div class="l-container l-grid l-grid--3up l-grid--large-gutters">
         <div>
-          <card
+          <v-card
               icon="fas fa-globe"
               subtitle="global excellence"
               description="Global centers of excellence for GMP and Commercial manufacturing"
           />
         </div>
         <div>
-          <card
+          <v-card
               icon="fas fa-dna"
               subtitle="history & experience"
               description="A long history of novel drug delivery experience and marketed products"
           />
         </div>
         <div>
-          <card
+          <v-card
               icon="fas fa-file-medical"
               subtitle="stellar record"
               description="A stellar record with the FDA (over 10 years) and CFDA (over 25 years)"
@@ -35,12 +35,12 @@
 </template>
 
 <script>
-import Card from 'vue-evolve/src/components/Card'
+import VCard from 'vue-evolve/src/components/VCard'
 
 export default {
   name: 'Home',
   components: {
-    Card
+    VCard
   }
 }
 </script>

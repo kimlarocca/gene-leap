@@ -6,8 +6,8 @@
         <p>GeneLeap Biotech is committed to developing safe and effective medicines and treatments for patients worldwide.</p>
       </div>
     </div>
-    <v-spacer size="quad" />
-    <div class="l-container">
+    <div class="l-container secondary-page-body">
+      <v-spacer size="hex" />
       <h2>GeneLeap Biotech Clinical Trials</h2>
       <content-card
           title="We protect the rights, safety, and welfare of research participants"
@@ -22,7 +22,7 @@
           <p>GeneLeap Biotech evaluates expanded access and compassionate use requests on an individual basis. GeneLeap Biotech may revise this policy at any time.</p>
         </template>
       </content-card>
-      <v-spacer size="quad" />
+      <v-spacer size="hex" />
     </div>
   </div>
 </template>

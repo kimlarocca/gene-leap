@@ -6,7 +6,9 @@
         <p>Coming soon.</p>
       </div>
     </div>
-    <v-spacer size="quad" />
+    <div class="l-container secondary-page-body">
+      <v-spacer size="hex" />
+    </div>
   </div>
 </template>
 
