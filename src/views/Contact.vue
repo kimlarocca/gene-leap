@@ -11,7 +11,7 @@
       <div class="l-grid l-grid--2up">
         <div>
           <h2>For General Inquiries, Please Contact Us</h2>
-          <p class="u-space--bottom"><a href="mailto:julie.armstrong@luye.com">julie.armstrong @ luye.com</a></p>
+          <p class="u-space--bottom"><a href="mailto:julie.armstrong@luye.com">Email Us</a></p>
           <p>19 Presidential Way</p>
           <p>Woburn MA 01801</p>
           <p>Suite 304</p>
