@@ -9,7 +9,7 @@
     <div class="l-container secondary-page-body">
       <v-spacer size="hex" />
       <h2>Our Science</h2>
-      <p>Leveraging recent breakthroughs in human genetics and the transformative success of mRNA, siRAN, and AAV-based gene therapy, our goal is to use a precision medicine approach to slow or stop the progression of diseases in the fields of neuro-degeneration and oncology, as well as multiple rare indications.</p>
+      <p>Leveraging recent breakthroughs in human genetics and the transformative success of nucleic acid (mRNA and oligo) and AAV-based gene therapy, our goal is to use a precision medicine approach to slow or stop the progression of diseases in the fields of neurodegeneration and oncology, as well as other multiple rare and common indications.</p>
       <v-spacer size="double" />
       <h2>Gene Therapy</h2>
       <p>The goal of gene therapy is to treat or possibly prevent disease. Scientists have been investigating and evolving gene therapy for more than 50 years. One goal of gene therapy research is to determine whether a new or functional gene can be used to restore the function of, or inactivate, a mutated gene.</p>
@@ -51,16 +51,12 @@
             alignment="right"
             vertical-alignment="middle"
         >
-          <p class="u-space--double--bottom">At GeneLeap Biotechnology, we pursue programs using messenger RNA (mRNA) to develop a new class of medicines. we are leveraging the fundamental role that mRNA plays in protein synthesis. We have developed proprietary technologies and methods to create mRNA sequences that cells recognize as if they were produced in the body. We focus on diseases where enabling targeted cells to produce – or turn ‘on’ – one or more given proteins will enable the body to fight or prevent a given disease.</p>
-          <p class="u-space--double--bottom">Additionally, we are advancing the use of using adeno-associated viral (AAV) vectors to advance research programs against strategically selected cell targets, for example, the retina, liver and central nervous system.</p>
+          <p class="u-space--double--bottom">At GeneLeap Biotechnology, we develop highly innovative drugs based on synthetic modified messenger RNA (mRNA). These mRNAs encode virtually any conceivable natural or engineered protein and are designed to be taken up by the cells in specific tissues and organs. We focus on diseases wherein enabling targeted cells to produce – or turn ‘on’ – one or more proteins helping the body to fight or prevent disease.</p>
+          <p class="u-space--double--bottom">These synthetic mRNAs are produced with a proprietary manufacturing process. During manufacturing, chemically modified nucleotides other than the natural adenosine, guanosine, uridine, and cytidine can be incorporated into the macromolecule using enzymatic reactions or chemical synthesis. GeneLeap Bio. has a team of very experienced Medicinal Chemists in Woburn and Nanjing working on developing proprietary chemical modifications of mRNA, including 5’-cap, poly-A tail and in the coding region, for improved stability, reduced immunogenicity, and enhanced translation efficacy.</p>
         </content-card>
-        <p class="u-space--double--bottom">Our newest area of development is in non-coding RNAs, enabling RNA interference or RNAi, as it is termed in the biotech field. Therapeutics in this realm of research and development include modalities such as small interfering RNAs (siRNAs) and microRNAs (miRNAs). They provide amazing potential in a variety of ways:</p>
-        <ol>
-          <li>The ability to harness a natural pathway.</li>
-          <li>The ability to target virtually any protein.</li>
-          <li>Acting as “upstream switches” of today’s medicines.</li>
-          <li>Simplifying and accelerating the discovery of drug candidates.</li>
-        </ol>
+        <p class="u-space--double--bottom">In some cases, these improvements are combined with sequence alteration of the whole mRNA. The combination of both strategies allows the design of an mRNA to meet its exact purpose, high or low expression levels, temporary or long-lasting expression, strong or undetectable stimulation of the immune system.</p>
+        <p class="u-space--double--bottom">The mRNAs are administered into the body as a formulation. This formulation can be a simple buffer or complex nanoparticles to deliver the mRNA into the right cell type. Here we exploit the many years of Luye’s experience in developing drug delivery concepts to the market. Once delivered, the mRNA act as cellular software directing ribosomes to express proteins or antibodies within targeted tissues, and as a consequence, trigger a physiologic benefit for the body and cure diseases.</p>
+        <p>At GeneLeap, we are expanding the use of adeno-associated viral (AAV) vectors against strategically selected cell targets, including the retina, liver, and central nervous system. Additionally, we are actively advancing the development of oligonucleotide-based TLR9 agonists for immune-oncology applications allows reduced dosing frequency with improved efficacy for cancer patients with unmet medical needs distinguishing from the current treatments in the clinic.</p>
         <v-spacer size="hex" />
       </div>
     </div>

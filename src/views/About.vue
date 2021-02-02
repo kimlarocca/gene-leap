@@ -3,7 +3,7 @@
     <div class="hero">
       <div class="hero-text l-container">
         <h1>About Us</h1>
-        <p>At GeneLeap Biotech, we are developing a pipeline of gene therapies to slow or stop the underlying disease process for patients in a variety of indications and disorders.</p>
+        <p>GeneLeap Biotech is a global gene therapy company in the Luye Life Sciences portfolio of companies, a leader in China and a new entrant in the US. Our goal is to deliver a best-in-class portfolio of completely novel gene therapies.</p>
       </div>
     </div>
     <div class="l-container secondary-page-body">
@@ -46,8 +46,8 @@
           </biography-card>
           <biography-card
               image="/images/team/zhang.jpg"
-              altText="Jingxin Jason Zhang, CSO"
-              name="Jingxin Jason Zhang, CSO"
+              altText="Jason Jingxin Zhang, CSO"
+              name="Jason Jingxin Zhang, CSO"
               layout="horizontal"
           >
             <slot>
@@ -59,8 +59,8 @@
           </biography-card>
           <biography-card
               image="/images/team/ekambar.jpg"
-              altText="Ekambar Kandimalla, Sr. Dir of Oligo Rsearch"
-              name="Ekambar Kandimalla, Sr. Dir of Oligo Rsearch"
+              altText="Ekambar Kandimalla, Sr. Dir of mRNA chemistry and oligo research"
+              name="Ekambar Kandimalla, Sr. Dir of mRNA chemistry and oligo research"
               layout="horizontal"
           >
             <slot>
@@ -88,8 +88,8 @@
           </biography-card>
           <biography-card
               image="/images/team/pengcheng.jpg"
-              altText="Pengcheng"
-              name="Pengcheng"
+              altText="Pengcheng Zhou, Dir of AAV research"
+              name="Pengcheng Zhou, Dir of AAV research"
               layout="horizontal"
           >
             <slot>

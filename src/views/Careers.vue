@@ -15,7 +15,7 @@
           alignment="left"
           vertical-alignment="middle"
       >
-        <p>Luye pharma is a leading life science group with R&D sites located in Greater Boston, MA; Princeton, NJ; Nanjing, China; and Yantai, China. Luye invents, discovers, develops, manufactures, and commercializes medicines for the treatment of serious medical conditions for oncology, CNS, metabolism and other areas of high unmet medical need. GeneLeap is an early start up biotechnology company located in Woburn MA and funded by Luye Pharma. GeneLeap is specialized in gene therapy areas.</p>
+        <p>GeneLeap Bio. is an early start-up biotechnology company headquartered in Singapore, with research sites located in Woburn, MA, and Nanjing, China. It is a Luye portfolio company specialized in gene therapy areas. Luye is a leading life science group with R&D sites located in Greater Boston, MA; Princeton, NJ; Nanjing, China; and Yantai, China. Luye invents, discovers, develops, manufactures, and commercializes medicines to treat severe medical conditions for oncology, CNS, metabolism, and other areas of high unmet medical need.</p>
       </content-card>
       <v-spacer size="hex" />
       <div class="careers-cards">
