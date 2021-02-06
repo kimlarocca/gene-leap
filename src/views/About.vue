@@ -100,6 +100,32 @@
               </ul>
             </slot>
           </biography-card>
+          <biography-card
+              image="/images/team/sun.jpg"
+              altText="Dr. Sun"
+              name="Dr. Sun"
+              layout="horizontal"
+          >
+            <slot>
+              <ul>
+                <li>15+ years experience of drug delivery system development in pharmaceutical industry. Led the development of multiple products and some of them have been approved or in clinical trials phase;</li>
+                <li>PhD from China Pharmaceutical University.</li>
+              </ul>
+            </slot>
+          </biography-card>
+          <biography-card
+              image="/images/team/wenzhong.jpg"
+              altText="Wenzhong Chen"
+              name="Wenzhong Chen"
+              layout="horizontal"
+          >
+            <slot>
+              <ul>
+                <li>20+year experience in scientific research management of pharmaceutical enterprises;</li>
+                <li>Expert of liposomal drug development and industrialization.</li>
+              </ul>
+            </slot>
+          </biography-card>
         </div>
         <v-spacer size="hex" />
       </div>
@@ -131,19 +157,6 @@
             <p>Professor of Pediatrics, Riley Children‘s Foundation Professor of Immunology, and Director of the Gene and Cell Therapy Program. World’s leading exper in gene therapy and immune tolerance for hemophilia and in AAV vectors.</p>
             <v-spacer />
             <p>Dr. Herzog’s research was recognized by awards from American Society of Gene and Cell Therapy, the National Hemophilia Foundation, the Bayer Hemophilia Program, and the University of Florida Research Foundation, among others. Dr. Herzog served on SAB of Sparks Therapeutics.</p>
-          </slot>
-        </biography-card>
-        <biography-card
-            image="/images/team/sun.jpg"
-            altText="Dr. Sun"
-            name="Dr. Sun"
-            layout="horizontal"
-        >
-          <slot>
-            <ul>
-              <li>15+ years experience of drug delivery system development in pharmaceutical indusdtry.Led the development of multiple products and some of them have been approved or in clinical trials phase;</li>
-              <li>PhD from China Pharmaceutical University.</li>
-            </ul>
           </slot>
         </biography-card>
       </div>
