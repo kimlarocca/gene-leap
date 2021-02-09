@@ -20,35 +20,47 @@
       <v-spacer size="hex" />
       <div class="careers-cards">
         <h2>Open Positions</h2>
-        <div class="l-grid l-grid--4-2-1 l-grid--large-gutters">
-          <div>
-            <v-card
-                icon="fas fa-file-word"
-                link="/jobs/InvestigatorI.docx"
-                subtitle="Investigator I - Analytical / Bioanalytical Chemist"
-            />
-          </div>
-          <div>
-            <v-card
-                icon="fas fa-file-word"
-                subtitle="Investigator / Senior Investigator"
-                link="/jobs/InvestigatorJD.docx"
-            />
-          </div>
-          <div>
-            <v-card
-                icon="fas fa-file-word"
-                subtitle="Scientist - mRNA Early to Late Stage Process Development"
-                link="/jobs/ScientistProcessDevelopment.docx"
-            />
-          </div>
-          <div>
-            <v-card
-                icon="fas fa-file-word"
-                subtitle="Scientist - mRNA Downstream Process Development"
-                link="/jobs/ScientistDownstream.docx"
-            />
-          </div>
+        <div class="l-grid l-grid--4-2-1">
+          <v-card
+              icon="fas fa-file-word"
+              subtitle="Chemist - mRNA Oligonucleotide"
+              link="/jobs/mRNAOligonucleotideChemist.pdf"
+          />
+          <v-card
+              icon="fas fa-file-word"
+              link="/jobs/InvestigatorI.docx"
+              subtitle="Investigator - Analytical / Bioanalytical Chemist"
+          />
+          <v-card
+              icon="fas fa-file-word"
+              subtitle="Investigator / Senior Investigator"
+              link="/jobs/InvestigatorJD.docx"
+          />
+          <v-card
+              icon="fas fa-file-word"
+              subtitle="Project Leader - mRNA"
+              link="/jobs/ProjectLeadermRNA.docx"
+          />
+          <v-card
+              icon="fas fa-file-word"
+              subtitle="Scientist - mRNA Bioanalytics"
+              link="/jobs/ScientistmRNABioanalytics.docx"
+          />
+          <v-card
+              icon="fas fa-file-word"
+              subtitle="Scientist - mRNA Downstream Process Development"
+              link="/jobs/ScientistDownstream.docx"
+          />
+          <v-card
+              icon="fas fa-file-word"
+              subtitle="Scientist - mRNA Early to Late Stage Process Development"
+              link="/jobs/ScientistProcessDevelopment.docx"
+          />
+          <v-card
+              icon="fas fa-file-word"
+              subtitle="Scientist - Nucleoside Oligonucleotide Purification and Analysis"
+              link="/jobs/NucleosideScientist.pdf"
+          />
         </div>
       </div>
     </div>
