@@ -52,8 +52,8 @@
           >
             <slot>
               <ul>
-                <li>15+ years’drug discovery and development experiences, previously Senior Dir Wave Life Sciences, Sanofi and Novartis;</li>
-                <li>PhD in immunology from NYU; PhD in medicinal chemistry from Peking Union Medical College;</li>
+                <li>15+ years drug discovery and development experiences, VP at Luye Life Sciences, previously Senior Dir at Wave Life Sciences, experiences at Sanofi and Novartis, moved multiple candidates into clinical trials;</li>
+                <li>PhD in immunology from NYU with Dr. Dan Littman; PhD in medicinal chemistry from Peking Union Medical College with Dr. Xiaotian Liang.</li>
               </ul>
             </slot>
           </biography-card>
@@ -102,12 +102,13 @@
           </biography-card>
           <biography-card
               image="/images/team/sun.jpg"
-              altText="Dr. Sun"
-              name="Dr. Sun"
+              altText="Kaoxiang Sun, VP"
+              name="Kaoxiang Sun, VP"
               layout="horizontal"
           >
             <slot>
               <ul>
+                <li>VP at Luye Life sciences;</li>
                 <li>15+ years experience of drug delivery system development in pharmaceutical industry. Led the development of multiple products and some of them have been approved or in clinical trials phase;</li>
                 <li>PhD from China Pharmaceutical University.</li>
               </ul>
@@ -115,8 +116,8 @@
           </biography-card>
           <biography-card
               image="/images/team/wenzhong.jpg"
-              altText="Wenzhong Chen"
-              name="Wenzhong Chen"
+              altText="Wenzhong Chen, Deputy General Manager"
+              name="Wenzhong Chen, Deputy General Manager"
               layout="horizontal"
           >
             <slot>
