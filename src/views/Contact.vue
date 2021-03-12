@@ -8,13 +8,16 @@
     </div>
     <div class="l-container secondary-page-body">
       <v-spacer size="hex" />
+      <h2>For General Inquiries, Please Contact Us</h2>
+      <p class="u-space--bottom"><a href="mailto:julie.armstrong@luye.com">Email Us</a></p>
       <div class="l-grid l-grid--2up">
         <div>
-          <h2>For General Inquiries, Please Contact Us</h2>
-          <p class="u-space--bottom"><a href="mailto:julie.armstrong@luye.com">Email Us</a></p>
           <p>19 Presidential Way</p>
           <p>Woburn MA 01801</p>
-          <p>Suite 304</p>
+          <p class="u-space--triple--bottom">Suite 304</p>
+          <h4 class="u-space--bottom">HR Department</h4>
+          <p>Ms. Le Zhang</p>
+          <p><a href="mailto:le.zhang@luye.com">Email HR</a></p>
         </div>
         <div class="google-maps">
           <iframe
