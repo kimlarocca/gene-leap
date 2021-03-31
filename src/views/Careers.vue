@@ -14,6 +14,8 @@
           alt-text="geneleap biotech careers"
           alignment="left"
           vertical-alignment="middle"
+          link="/contact"
+          cta="CONTACT US TO LEARN MORE"
       >
         <p>GeneLeap Bio. is an early start-up biotechnology company headquartered in Singapore, with research sites located in Woburn, MA, and Nanjing, China. It is a Luye portfolio company specialized in gene therapy areas. Luye is a leading life science group with R&D sites located in Greater Boston, MA; Princeton, NJ; Nanjing, China; and Yantai, China. Luye invents, discovers, develops, manufactures, and commercializes medicines to treat severe medical conditions for oncology, CNS, metabolism, and other areas of high unmet medical need.</p>
       </content-card>

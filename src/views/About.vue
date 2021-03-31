@@ -135,19 +135,19 @@
       <v-spacer size="hex" />
       <h3>Board of Advisors</h3>
       <div class="l-grid l-grid--2up l-grid--large-gutters">
-<!--        <biography-card-->
-<!--            image="/images/team/guangping.jpg"-->
-<!--            altText="Prof. Guangping Gao"-->
-<!--            name="Prof. Guangping Gao"-->
-<!--            layout="horizontal"-->
-<!--        >-->
-<!--          <slot>-->
-<!--            <p>Co-Director, Li Weibo Institute for Rare Diseases Research, Director, Horae Gene Therapy Center and Viral Vector Core, Professor in the University of Massachusetts Medical School.</p>-->
-<!--            <v-spacer />-->
-<!--            <p>Dr. Gao played a key role in the discovery and characterization of new family of adeno-associated virus (AAV) serotypes, which was instrumental in reviving the gene therapy field. Dr. Gao has published 250+ research papers, holds 131 patents with 221 more pending. Dr. Gao was a co-founder of Voyager Therapeutics.-->
-<!--            </p>-->
-<!--          </slot>-->
-<!--        </biography-card>-->
+        <biography-card
+            image="/images/team/guangping.jpg"
+            altText="Prof. Guangping Gao"
+            name="Prof. Guangping Gao"
+            layout="horizontal"
+        >
+          <slot>
+            <p>Co-Director, Li Weibo Institute for Rare Diseases Research, Director, Horae Gene Therapy Center and Viral Vector Core, Professor in the University of Massachusetts Medical School.</p>
+            <v-spacer />
+            <p>Dr. Gao played a key role in the discovery and characterization of new family of adeno-associated virus (AAV) serotypes, which was instrumental in reviving the gene therapy field. Dr. Gao has published 250+ research papers, holds 131 patents with 221 more pending. Dr. Gao was a co-founder of Voyager Therapeutics.
+            </p>
+          </slot>
+        </biography-card>
         <biography-card
             image="/images/team/herzog.jpg"
             altText="Prof. Roland W. Herzog"
