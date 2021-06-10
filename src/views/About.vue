@@ -45,19 +45,6 @@
             </slot>
           </biography-card>
           <biography-card
-              image="/images/team/zhang.jpg"
-              altText="Jason Jingxin Zhang, CSO"
-              name="Jason Jingxin Zhang, CSO"
-              layout="horizontal"
-          >
-            <slot>
-              <ul>
-                <li>15+ years drug discovery and development experiences, VP at Luye Life Sciences, previously Senior Dir at Wave Life Sciences, experiences at Sanofi and Novartis, moved multiple candidates into clinical trials;</li>
-                <li>PhD in immunology from NYU with Dr. Dan Littman; PhD in medicinal chemistry from Peking Union Medical College with Dr. Xiaotian Liang.</li>
-              </ul>
-            </slot>
-          </biography-card>
-          <biography-card
               image="/images/team/ekambar.jpg"
               altText="Ekambar Kandimalla, Sr. Dir of mRNA chemistry and oligo research"
               name="Ekambar Kandimalla, Sr. Dir of mRNA chemistry and oligo research"
@@ -83,20 +70,6 @@
                 <li>15 yr experiences in VC space;</li>
                 <li>CEO / COO of multiple start up companies with multiple successful exits;</li>
                 <li>PhD in Bioengineering from Rutgers.</li>
-              </ul>
-            </slot>
-          </biography-card>
-          <biography-card
-              image="/images/team/pengcheng.jpg"
-              altText="Pengcheng Zhou, Dir of AAV research"
-              name="Pengcheng Zhou, Dir of AAV research"
-              layout="horizontal"
-          >
-            <slot>
-              <ul>
-                <li>Previously Associate Director at Voyager;</li>
-                <li>Project lead of Voyager’s core AAV program;</li>
-                <li>Previously instructor at Harvard Medical School.</li>
               </ul>
             </slot>
           </biography-card>
