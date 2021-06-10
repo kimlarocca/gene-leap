@@ -25,6 +25,11 @@
         <div class="l-grid l-grid--4-2-1">
           <v-card
               icon="fas fa-file-word"
+              subtitle="Financial Administrator"
+              link="/jobs/FinancialAdministrator.docx"
+          />
+          <v-card
+              icon="fas fa-file-word"
               subtitle="Chemist - mRNA Oligonucleotide"
               link="/jobs/mRNAOligonucleotideChemist.pdf"
           />
