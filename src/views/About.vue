@@ -18,36 +18,9 @@
         <h3>Executive Team</h3>
         <div class="l-grid l-grid--2up l-grid--large-gutters">
           <biography-card
-              image="/images/team/sean.jpg"
-              altText="Xi-Yong Sean Fu, CEO"
-              name="Xi-Yong Sean Fu, CEO"
-              layout="horizontal"
-          >
-            <slot>
-              <ul>
-                <li>20+ year veteran in the BioPharma industry;</li>
-                <li>16 years at Merck & Co., several products on the market, led multiple M&A deals including the merger with Schering-Plough;</li>
-                <li>PhD from The Ohio State University, MBA from Wharton School of Business, University of Pennsylvania.</li>
-              </ul>
-            </slot>
-          </biography-card>
-          <biography-card
-              image="/images/team/matthias.jpg"
-              altText="Matthias John, Sr. Dir of mRNA Research"
-              name="Matthias John, Sr. Dir of mRNA Research"
-              layout="horizontal"
-          >
-            <slot>
-              <ul>
-                <li>Previously Research Fellow at Crispr Therapeutics, Senior Research Fellow at Moderna, Associate Director at Roche and Alnylam;</li>
-                <li>Experts in therapeutic Crispr, mRNA and siRNA technologies;</li>
-              </ul>
-            </slot>
-          </biography-card>
-          <biography-card
               image="/images/team/ekambar.jpg"
-              altText="Ekambar Kandimalla, Sr. Dir of mRNA chemistry and oligo research"
-              name="Ekambar Kandimalla, Sr. Dir of mRNA chemistry and oligo research"
+              altText="Ekambar Kandimalla, VP of mRNA chemistry and oligo research"
+              name="Ekambar Kandimalla, VP of mRNA chemistry and oligo research"
               layout="horizontal"
           >
             <slot>
@@ -61,8 +34,8 @@
           </biography-card>
           <biography-card
               image="/images/team/tim.jpg"
-              altText="Tim Maguire, BD Head"
-              name="Tim Maguire, BD Head"
+              altText="Tim Maguire, Head of Business Development"
+              name="Tim Maguire, Head of Business Development"
               layout="horizontal"
           >
             <slot>
