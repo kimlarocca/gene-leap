@@ -26,7 +26,7 @@
           <v-card
               icon="fas fa-file-medical"
               subtitle="stellar record"
-              description="A stellar record with the FDA (over 10 years) and CFDA (over 25 years)"
+              description="A Luye Lifescience company, benefiting from Luye’s experience of 10 years with the FDA and over 25 years with the CFDA"
           />
         </div>
       </div>
