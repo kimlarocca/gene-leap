@@ -94,7 +94,7 @@
           </slot>
         </biography-card>
         <biography-card
-          image="/images/team/placeholder.png"
+          image="/images/team/boblanger.jpg"
           altText="Dr. Bob Langer"
           name="Dr. Bob Langer"
           layout="horizontal"
