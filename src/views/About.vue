@@ -58,21 +58,6 @@
               </ul>
             </slot>
           </biography-card>
-          <biography-card
-            image="/images/team/ekambar.jpg"
-            altText="Ekambar Kandimalla, VP of mRNA chemistry and oligo research"
-            name="Ekambar Kandimalla, VP of mRNA chemistry and oligo research"
-            layout="horizontal"
-          >
-            <slot>
-              <ul>
-                <li>Previously CSO at Exicure; VP Idera;</li>
-                <li>World’s leading scholar on nucleic acid chemistry;</li>
-                <li>Broad experiences in siRNA and SNA therapeutic development;</li>
-                <li>Moved multiple candidates into clinical trials.</li>
-              </ul>
-            </slot>
-          </biography-card>
         </div>
         <v-spacer size="hex" />
       </div>
